@@ -1,0 +1,9 @@
+{% extends "_layouts/default.njk" %} {% block body %}
+
+<div class="content">
+  <strong>Olá {{ user.name }}</strong>
+  <a href="/app/profile" class="profile">Perfil</a>
+  <a href="/app/logout" class="logout">Sair</a>
+</div>
+
+{% endblock %}
