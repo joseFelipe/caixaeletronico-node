@@ -8,11 +8,11 @@
 
   {% include "../_partials/flash.njk" %}
 
-  <input type="password" name="password" id="password" placeholder="Senha atual" />
+  <input type="password" name="password" id="password" placeholder="Senha atual" maxlength="5" required />
 
-  <input type="password" name="password1" id="password1" placeholder="Nova senha" />
+  <input type="password" name="password1" id="password1" placeholder="Nova senha" maxlength="5" minlength="5" required />
 
-  <input type="password" name="password2" id="password2" placeholder="Senha novamente" />
+  <input type="password" name="password2" id="password2" placeholder="Senha novamente" maxlength="5" minlength="5" required />
 
   <button type="submit">Alterar Senha</button>
 
